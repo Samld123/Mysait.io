@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Шапка сайта */
+.web{
+    max-width: 1200px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background: #141414;
+    color: white;
+}
+
+.tab{
+    margin: 0;
+    width: 100%;
+    height: 250px;
+    background: #141414;
+}
+
+
+/* Фотография */
+.picture{
+    float: left;
+    border-radius: 10px;
+    border: 2px white solid;   
+}
+
+/* Цитата */
+.table_block {
+    margin-top: 34px;
+    width: 800px;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    color: white;
+}
+
+.table_block>th {
+        background: white;
+        border: 1px solid black;
+        text-align: center;
+}
+
+.table_block>td{
+    text-align: center;
+}
+
+/* Отзывы */
+.reviews{
+    float: right;
+    height: 390px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.verticalLine {
+    border-left: thick solid black;
+  }
+
+/* Видео */
+.video{
+    margin-left: 100px;
+    float: left;
+}
+
+.content{
+    background: white;
+    max-width: 1400px;
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.menu{
+margin-top: 65px;
+float: left;
+}
+
+.quote{
+   margin-top: auto;
+   float: right
+}
